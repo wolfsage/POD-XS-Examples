@@ -4,6 +4,10 @@ POD-XS-Examples
 A package (maybe one day) containing different XS samples
 to get off the ground with.
 
+Note that I'm still learning and these are my experiments,
+but as I get them polished I'll make sure it's known which
+are good examples and which aren't.
+
 Currently:
 
   Simple-Class/ - An example XS Perl class (package).
