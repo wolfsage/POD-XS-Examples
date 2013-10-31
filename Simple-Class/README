@@ -9,4 +9,10 @@ Interesting files:
   lib/Simple/Class.pm  - The Perl side of the package.
   t/Simple-Class.t     - A test showing usage.
 
+Created with:
+
+  h2xs -A -n Simple::Class
+
+And then cleaned up significantly.
+
 -- Matthew Horsfall (alh)
