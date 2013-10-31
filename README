@@ -1,0 +1,10 @@
+POD-XS-Examples
+=============================
+
+A package (maybe one day) containing different XS samples
+to get off the ground with.
+
+Currently:
+
+  Simple-Class/ - An example XS Perl class (package).
+

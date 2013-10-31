@@ -1,0 +1,12 @@
+Simple-Class version 0.01
+=============================
+
+An example XS Perl class (package).
+
+Interesting files:
+
+  Class.xs             - The meat of the class, in C/XS.
+  lib/Simple/Class.pm  - The Perl side of the package.
+  t/Simple-Class.t     - A test showing usage.
+
+-- Matthew Horsfall (alh)
