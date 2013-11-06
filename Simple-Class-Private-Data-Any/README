@@ -1,0 +1,19 @@
+Simple-Class-Private-Data-Any version 0.01 (EXPERIMENTAL)
+=============================
+
+An example XS Perl class (package) showing how to hide C data from Perl
+(specifically a string in this example.)
+
+Interesting files:
+
+  Any.xs                                - The meat of the class, in C/XS.
+  lib/Simple/Class/Private/Data/Any.pm  - The Perl side of the package.
+  t/Simple-Class-Private-Data-Any.t     - A test showing usage.
+
+Created with:
+
+  h2xs -A -n Simple::Class::Private::Data::Any
+
+And then cleaned up significantly.
+
+-- Matthew Horsfall (alh)
