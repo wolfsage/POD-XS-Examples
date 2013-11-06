@@ -10,5 +10,8 @@ are good examples and which aren't.
 
 Currently:
 
-  Simple-Class/ - An example XS Perl class (package).
+  Simple-Class/                   - An example XS Perl class (package).
+  Simple-Class-Private-Data/      - Store a char * in an object hidden from Perl using magic.
+  Simple-Class-Private-Data-Any/  - Store any C pointer in an object hidden from perl using magic.
+
 
