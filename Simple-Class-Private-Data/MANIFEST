@@ -1,0 +1,10 @@
+Changes
+Data.xs
+lib/Simple/Class/Private/Data.pm
+Makefile.PL
+MANIFEST			This list of files
+META.json
+META.yml
+ppport.h
+README
+t/Simple-Class-Private-Data.t
