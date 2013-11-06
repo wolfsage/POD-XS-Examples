@@ -18,7 +18,7 @@ __END__
 
 =head1 NAME
 
-Simple::Class::Private::Data - Example class in XS
+Simple::Class::Private::Data - Example class in XS for hiding C data from Perl
 
 =head1 SYNOPSIS
 

@@ -1,7 +1,8 @@
 Simple-Class-Private-Data version 0.01 (EXPERIMENTAL)
 =============================
 
-An example XS Perl class (package).
+An example XS Perl class (package) showing how to hide C data from Perl.
+(In this case, a char *.)
 
 Interesting files:
 
