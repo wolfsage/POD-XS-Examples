@@ -8,7 +8,9 @@
 static Perl_check_t old_checker;
 
 /* Our replacement function. This will modify an OP_CONST
-   if it matches a certain string
+ * if it matches a certain string. Note that this is only
+ * called when the OP_CONST is compiled, not when it is
+ * executed.
  */
 
 static OP *my_check(pTHX_ OP *op) {
