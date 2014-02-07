@@ -1,0 +1,7 @@
+Revision history for Perl extension Wrap::Op::Checker.
+
+0.01  Fri Feb 07 09:52:00 2014
+	- original version; created by h2xs 1.23 with options
+		-A -n Wrap::Op::Checker
+
+

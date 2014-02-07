@@ -1,0 +1,18 @@
+Wrap-Op-Checker version 0.01 (EXPERIMENTAL)
+=============================
+
+An example XS wrap_op_check implementation 
+
+Interesting files:
+
+  Wrap-Op-Checker.xs     - The meat of the class, in C/XS.
+  lib/Wrap/Op/Checke.pm  - The Perl side of the package.
+  t/Simple-Class.t       - A test showing usage.
+
+Created with:
+
+  h2xs -A -n Wrap::Op::Checker
+
+And then cleaned up significantly.
+
+-- Matthew Horsfall (alh)
