@@ -43,16 +43,12 @@ new(package, ...)
      *  ST(0) is the package name, ST(i) to ST(items-1) are the rest
      *  of the arguments */
     for (i = 1; i < items; i+= 2) {
-        SV *obj = ST(i+1);
+        SV *obj = newSVsv(ST(i+1));
 
         /* if (ref $val) { # no refs allowed! } */
         if (SvROK(obj)) {
             croak("Hash value for '%s' must be a string", SvPV_nolen(ST(i)));
         }
-
-        /* obj has refcount of 0 here I guess. It needs 1 which our
-           hash will own */
-        SvREFCNT_inc(obj);
 
         /* $self{$key} = $val */
         if (NULL == hv_store(self, SvPV_nolen(ST(i)), strlen(SvPV_nolen(ST(i))), obj, 0)) {
